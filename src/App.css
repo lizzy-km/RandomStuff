@@ -1,0 +1,5 @@
+code {
+    filter: brightness({brightnessVal / 100}) contrast({contrastVal / 100}
+          ) saturate({SaturateVal / 100}) sepia({WarmthVal / 100}) hue-rotate(
+          {HueVal}deg)
+}
