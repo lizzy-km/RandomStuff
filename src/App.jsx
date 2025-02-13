@@ -6,6 +6,7 @@ import PhotoCard from "./Components/PhotoCard";
 function App() {
   const [image, setImage] = useState("");
   console.log(image);
+  console.log("akm");
 
   const UploadImage = (event) => {
     const file = event.target.files[0];
